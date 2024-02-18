@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.backfoto {
+    background: url('/src/photo/back.png') no-repeat;
+    position: absolute;
+    background-size: cover;
+    height: 1234px;
+    width: 100%;    
+    top:0;
+    
+}
+
+#hat{
+position: absolute;
+background: linear-gradient(to bottom, #060B28 ,rgba(10,14,35,0.5));
+opacity: .8;
+width: 1598px;
+height: 129px;
+top: 117px;
+left: 298px;
+border-radius: 20px;
+}
+
+
+
+#hat .btn1 {
+    position: absolute;
+    display: inline-block;
+    padding: 0px, 8px, 0px, 8px;
+    width: 134.5px;
+    height: 35px;
+    top: 45px;
+    left: 1440px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.28s;
+    
+}
+
+#hat .btn1:hover {
+    background-color: #0075FF;
+}
+
+
+#hat .btn2 {
+    position: absolute;
+    display: inline-block;
+    padding: 0px, 8px, 0px, 8px;
+    width: 134.5px;
+    height: 35px;
+    top: 45px;
+    left: 1280px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.28s;
+    
+}
+
+#hat .btn2:hover {
+    background-color: #0075FF;
+}
+
+
+#hat .btn3 {
+    position: absolute;
+    display: inline-block;
+    padding: 0px, 8px, 0px, 8px;
+    width: 134.5px;
+    height: 35px;
+    top: 45px;
+    left: 1120px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.28s;
+    
+}
+
+#hat .btn3:hover {
+    background-color: #0075FF;
+}
+
+
+#block1 {
+    position: absolute;
+    background: url('/src/photo/kvadrat1.png');
+    background-color: grey;
+    width: 368px;
+    height: 377px;
+    top: 271px;
+    left: 298px;
+    border-radius: 20px;
+}
+
+#block2 {
+    position: absolute;
+    width: 730px;
+    height: 377px;
+    top: 271px;
+    left: 690px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #060B28, #0A0E23,rgba(10,14,35,0.5));
+    opacity: .8;
+
+}
+
+#block3 {
+    position: absolute;
+    width: 451px;
+    height: 377px;
+    top: 271px;
+    left: 1445px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #060B28, #0A0E23,rgba(10,14,35,0.5));
+    opacity: .7;
+}
+
+#block4 {
+    position: absolute;
+    width: 368px;
+    height: 485px;
+    top: 673px;
+    left: 298px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #060B28, #0A0E23,rgba(10,14,35,0.5));
+    opacity: .87;
+}
+
+#block5 {
+    position: absolute;
+    width: 1206px;
+    height: 485px;
+    top: 673px;
+    left: 690px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #060B28, #0A0E23,rgba(10,14,35,0.5));
+    opacity: .8;
+}
+
+
+#block2 #block6 {
+    position: absolute;
+    width: 220px;
+    height: 84px;
+    top: 100px;
+    left: 243px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #030615, #0d101e);
+    background-color: hsl(245, 55%, 4%), #04050a;
+
+    opacity: .9;
+}
+
+#block2 #block7 {
+    position: absolute;
+    width: 220px;
+    height: 84px;
+    top: 100px;
+    left: 485px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #030615, #0d101e);
+    background-color: hsl(245, 55%, 4%), #04050a;
+
+    opacity: .9;
+}
+
+#block2 #block8 {
+    position: absolute;
+    width: 220px;
+    height: 84px;
+    top: 200px;
+    left: 243px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #030615, #0d101e);
+    background-color: hsl(245, 55%, 4%), #04050a;
+    opacity: .9;
+}
+
+#block2 #block9 {
+    position: absolute;
+    width: 220px;
+    height: 84px;
+    top: 200px;
+    left: 485px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #030615, #0d101e);
+    background-color: hsl(245, 55%, 4%), #04050a;
+     opacity: .9; 
+}
+
+
+
+
+    
+
+
+
+.d1 {
+    position: absolute;
+    width: 171px; 
+    height: 171px;
+    border-radius: 50%;
+    left: 22px;
+    top: 100px;
+    background: linear-gradient(to bottom, #030615, #0d101e);
+    background-color: hsl(245, 55%, 4%), #04050a;
+    }
+
+
+
+
+
+
+
+#block4 .toggle {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .toggle input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #0075FF;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+
+
+
+
+  #block5 .btn11 {
+    position: absolute;
+    display: inline-block;
+    padding: 0px, 8px, 0px, 8px;
+    width: 134.5px;
+    height: 35px;
+    top: 45px;
+    left: 1120px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.28s;
+  }
+
+#hat .btn11:hover {
+    background-color: #0075FF;
+}
+
+
+
+
+#block5 .btn22 {
+    position: absolute;
+    display: inline-block;
+    padding: 0px, 8px, 0px, 8px;
+    width: 134.5px;
+    height: 35px;
+    top: 45px;
+    left: 1120px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.28s;
+  }
+
+#hat .btn22:hover {
+    background-color: #0075FF;
+}
+
+
+
+
+#block5 .btn33 {
+    position: absolute;
+    display: inline-block;
+    padding: 0px, 8px, 0px, 8px;
+    width: 134.5px;
+    height: 35px;
+    top: 45px;
+    left: 1120px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.28s;
+  }
+
+#hat .btn33:hover {
+    background-color: #0075FF;
+}
+
+   /*  #hat .btn3 {
+        position: absolute;
+        display: inline-block;
+        padding: 0px, 8px, 0px, 8px;
+        width: 134.5px;
+        height: 35px;
+        top: 45px;
+        left: 1120px;
+        border-radius: 12px;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.28s;
+        
+    } */
+  
